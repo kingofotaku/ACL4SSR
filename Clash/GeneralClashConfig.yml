@@ -9,9 +9,11 @@ proxy-providers:
     url: https://subcon.py6.pw/sub?target=clash&new_name=true&url=https%3A%2F%2Fwww.plmb001.com%2Flink%2FlQLeEoqeiCYvxGFi%3Fmu%3D3%26lv%3D2%7Chttps%3A%2F%2Fwww.plmb001.com%2Flink%2FlQLeEoqeiCYvxGFi%3Fmu%3D2%26lv%3D2&insert=false&config=https%3A%2F%2Fgithub.com%2Fkingofotaku%2Fcustom-clash-rule%2Fraw%2Fmaster%2Fcustom-ACL4SSR_Online_Full_AdblockPlus.ini&filename=Dotunnel&emoji=true&list=true
     interval: 86400
     health-check:
-      enable: false
+      enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+rule-providers: ~
+rules: ~
 # 混合端口 HTTP和SOCKS5用一个端口
 mixed-port: 7890
 
