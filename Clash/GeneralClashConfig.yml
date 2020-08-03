@@ -2,6 +2,16 @@
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 # 或者运行目录下的config.yml
 #---------------------------------------------------#
+proxy-providers:
+  Dotunnel:
+    type: http
+    path: proxy-providers/Dotunnel.yaml
+    url: https://subcon.py6.pw/sub?target=clash&new_name=true&url=nullnode&insert=false&config=https%3A%2F%2Fgithub.com%2Fkingofotaku%2Fcustom-clash-rule%2Fraw%2Fmaster%2Fcustom-ACL4SSR_Online_Full_AdblockPlus.ini&filename=Dotunnel&emoji=true&list=true
+    interval: 86400
+    health-check:
+      enable: false
+      url: http://www.gstatic.com/generate_204
+      interval: 300
 # 混合端口 HTTP和SOCKS5用一个端口
 mixed-port: 7890
 
